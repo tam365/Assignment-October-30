@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <!-- Tamuru Selamu SCC102 -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Line 10 showing hot to link our style sheet -->
+    <link rel="stylesheet" href="./style.css"> 
+    <!-- Line 12 is also showing how to link our java script sheet -->
+    <script src="./script.js"></script>
+    
+    <!-- code below shows the title on the browser -->
+    <title>UAT Space Program</title> 
+     <!--Line 12 is how to link my scc file with html  -->
+    
+    
+</head>
+<body>
+    <!-- The line below is how I inserted the image using image tag -->
+    <img src="./Images/UATspaceLogo-2.jpg" alt="UAT logo">  
+     <!--line 19 is just headline using size h2  -->
+
+    <h1>UAT Space Program</h1>
+    <!-- Two lines below are just text using p tag -->
+    <p>Welcome to space launching center.Pleace provide the infoormation below<br> before testing the launch count down time.</p>
+
+   
+    <!-- the below just promts to fill in information -->
+    <h3>Please Enter your full Name:</h3><br>  
+    <form id="info" onsubmit="return false">
+        <!-- below two lines creates a blank form to type it in a text -->
+    First Name:   <input type="text" id="fname"> <br><br>
+    Last Name:    <input type="text" id="lname"><br><br>
+    <!-- below line only accepts numbers  -->
+    Badge Number: <input type="number" id="badgeN"><br><br>
+    <!-- submit button that collects all inputs -->
+    <input id="CountButton" type="submit" onclick="Submited();">
+</form>
+<div id="infos">
+<!-- below collects fullname -->
+<h3 id="wholeName">Your Full Name Is:</h3>
+<!-- below displays the badge number -->
+<h3 id="bnum">Your Badge is:</h3><br>
+</div>
+     <!-- line 30 is just a text directing to click for count down -->
+     <h3>Please click for count down</h3>  
+     <!-- line 32 two buttons start and stop with their event listener on click function name. -->
+     <button onclick="CountDown()" id="CountButton">START</button> <button onclick="CountStop()" class="StopButton">STOP</button>
+    <br>
+    <!-- launch gets updated counting down -->
+    <h1 id="blast">Launch:</h1>  
+
+
+
+    </body>
+</html> 

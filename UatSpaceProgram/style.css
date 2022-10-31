@@ -1,0 +1,52 @@
+body{
+    
+    background-color: aqua; /*Thi is color of the whole body*/
+    background-image: linear-gradient(90deg, rgb(102, 121, 127), orange); 
+     /* This line will fade the background image or color from left to right*/
+   
+}
+h1{
+    margin-left: 200px;
+   
+}
+p, h3, h2{
+    margin-left: 250px;
+}
+ .CountButton{
+    margin-left: 150px;
+   
+    
+}
+
+#CountButton{  /* refering to a class name on our html and assigning it various size and color*/
+    width: 100px;
+    height: 30px;
+    background-color: azure;
+    border-radius: 200px;  /* This will curve our button or round shape*/
+    border-color: aquamarine;
+}
+.StopButton{  /* refering to a class name on our html and assigning it various size and color*/
+    width: 100px;
+    height: 30px;
+    background-color: rgb(15, 156, 156);
+    border-radius: 200px;         /* This will curve our button or round shape*/
+    border-color: rgb(255, 185, 127);
+}
+img{
+  margin-left: 80%; 
+  width: 100px;  /*minimized the size of the image */
+    
+}
+button{
+    margin: 50px;
+}
+#blast{
+    margin-left: 50px;
+}
+#first{
+    margin:center;
+}
+div{
+    display:flex;
+    margin-left: 100px;
+}
